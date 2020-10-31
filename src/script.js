@@ -1,3 +1,8 @@
+var _ = require('lodash');
+console.log(_);
+
+let array1 = [1,2,3,4,5,6,7];
+console.log('anweser', _.without(array1, 3, 5))
 var body = document.querySelector("body");
 var color1 = document.getElementById("c1");
 var color2 = document.getElementById("c2");

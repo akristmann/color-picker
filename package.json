@@ -1,0 +1,22 @@
+{
+  "name": "color-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/script.js",
+  "scripts": {
+    "build": "browserify src/script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akristmann/color-picker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akristmann/color-picker/issues"
+  },
+  "homepage": "https://github.com/akristmann/color-picker#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

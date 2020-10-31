@@ -5,4 +5,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+bundle.js
 
+node_modules
+node_modules/*
